@@ -1,44 +1,7 @@
-# Backend Dependencies
 fastapi==0.104.1
 uvicorn==0.24.0
-pydantic==2.5.0
 python-multipart==0.0.6
-
-# Database & ORM
+pydantic==2.5.0
 supabase==2.4.3
-supabase-community==0.2.0
-
-# Computer Vision & AI
-opencv-python==4.8.1.78
-ultralytics==8.0.214
-torch==2.1.1
-torchvision==0.16.1
-
-# HTTP & Requests
-httpx==0.25.1
 requests==2.31.0
-
-# Security & Encryption
-python-jose==3.3.0
-passlib==1.7.4
-bcrypt==4.1.1
-
-# Environment Variables
 python-dotenv==1.0.0
-
-# Async Support
-aiofiles==23.2.1
-websockets==12.0
-
-# Utilities
-Pillow==10.1.0
-numpy==1.26.2
-python-dateutil==2.8.2
-
-# Production Server
-gunicorn==21.2.0
-
-# Development (Optional)
-black==23.12.0
-flake8==6.1.0
-pytest==7.4.3
